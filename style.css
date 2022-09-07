@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.main-container {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container .wrapper {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 40px -8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.main-container .wrapper img {
+  width: 100%;
+}
+
+.main-container .wrapper .description {
+  padding: 0 16px;
+}
+
+.main-container .description h2 {
+  font-size: 30px;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.main-container .description p {
+  font-size: 15px;
+  line-height: 2;
+}
+
+.main-container .description .btn {
+  padding: 8px 32px;
+  background: teal;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 800;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 16px;
+}
